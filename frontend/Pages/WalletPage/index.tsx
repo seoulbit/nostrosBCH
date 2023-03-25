@@ -120,14 +120,15 @@ export const WalletPage: React.FC = () => {
     () => (
       <View style={styles.center}>
 
-        <Button mode='contained' onPress={() => bottomLndHubRef.current?.open()}>
-          {t('walletPage.addLnhub')}
-        </Button>
+       
         <Button mode='contained' onPress={() => console.log} style={styles.button}>
           {t('walletPage.addXpub')}
         </Button>
         <Button mode='contained' onPress={() => console.log} style={styles.button}>
           {t('walletPage.addXpriv')}
+        </Button>
+        <Button mode='contained' onPress={() => bottomLndHubRef.current?.open()} style={styles.button}>
+          {t('walletPage.addLnhub')}
         </Button>
         <Button
           mode='contained'
