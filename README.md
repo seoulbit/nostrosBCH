@@ -1,30 +1,23 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a3db59f4a45a43159cb129386b937a2a)](https://www.codacy.com/gh/KoalaSat/nostros/dashboard?utm_source=github.com&utm_medium=referral&utm_content=KoalaSat/nostros&utm_campaign=Badge_Grade)
-[![Frontend Build](https://github.com/KoalaSat/nostros/actions/workflows/android-build.yml/badge.svg?branch=main)](https://github.com/KoalaSat/nostros/actions/workflows/android-build.yml)
-[![release](https://img.shields.io/github/v/release/KoalaSat/nostros)](https://github.com/KoalaSat/nostros/releases)
-[![Apache 2 license](https://img.shields.io/badge/license-Apache%202-blue)](https://github.com/KoalaSat/nostros/blob/main/LICENSE)
-[![Telegram](https://img.shields.io/badge/chat-telegram-brightgreen)](https://t.me/+zhvZAE9L0X40ZjI0)
 
-<center><a href="https://apt.izzysoft.de/fdroid/index/apk/com.nostros" target="_blank" rel="noopener noreferrer"><img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" width="170"></a></center>
 
-[![image](https://user-images.githubusercontent.com/4659020/225482880-07677ab8-0315-4f9c-bd2d-722538c9f9a2.png)](https://nostros.net/)
+# Getting Started with NostrosCash
 
-# Getting Started
+This is a fork of the Nostros project that will have two main goals:
 
-This project is in development, stay tuned for more info
+* remove all Lightning Network functionality
+* add support for payments (micro and macro) using the BCH network
 
-https://nostros.net/
+after that support for other coins will be implimented. BTC, LTC and ARRR(Pirate Coin) are on the list
+
+
+
 
 What is Nostr: https://www.nostr.how
 
-Local setup: https://github.com/KoalaSat/nostros/blob/main/SETUP.md
+Local setup: https://github.com/seoulbit/nostrosBCH/blob/main/SETUP.md
 
-Nostros chat
 
-```
-8d37308d97356600f67a28039d598a52b8c4fa1b73ef6f2e7b7d40197c3afa56
-```
-
-# Features
+# Features (Strikethru = To Be Removed)
 
 - [x] Send public notes and replies
 - [x] Profile edition
@@ -32,7 +25,7 @@ Nostros chat
 - [x] Reactions (likes & dislikes)
 - [x] Encrypted direct messsages
 - [x] NIP-05 validation
-- [x] Lightning Network invoice generation for profiles and notes
+- [x] ~~Lightning Network invoice generation for profiles and notes~~
 - [x] Sensitive content flag
 - [x] Bech-32 keys
 - [x] Block users and content
@@ -45,17 +38,17 @@ Nostros chat
 - [x] Global feed filters and blocked users
 - [x] Relay colouring
 - [x] Push events to private relay
-- [x] Zaps
+- [x] ~~Zaps~~
 - [x] Bookmarks (public and private)
 - [x] Dynamicall connection to contacts' relays
+- [ ] Add Bitcoin Cash functionally (full account)
+- [ ] Impliment Watch only (xpub) capabilities (watch only account)
 
 # Kudos
 
-- Inspired by https://github.com/jb55/nostr-js and https://github.com/fiatjaf/nostr-tools
-- Discovered thanks to https://lunaticoin.com
+- Inspired by https://github.com/jb55/nostr-js and https://github.com/fiatjaf/nostr-tools 
+and of course to the authors of Nostor itself. 
 
 # Support
 
-Project's Address: bc1q8xjlxxwpsck429zr7ff466yax0k3lhp9fmm2et
-
-LN Address: nostros@getalby.com
+Project's Address: bitcoincash:qz7gdxthw5lww7whg8ae20e6k76nmesyfufzwquvfq
