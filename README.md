@@ -43,6 +43,7 @@ Local setup: https://github.com/seoulbit/nostrosBCH/blob/main/SETUP.md
 - [x] Dynamicall connection to contacts' relays
 - [ ] Add Bitcoin Cash functionally (full account)
 - [ ] Impliment Watch only (xpub) capabilities (watch only account)
+- [ ] Add Korean language support
 
 # Kudos
 

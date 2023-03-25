@@ -7,6 +7,7 @@ import ru from './Locales/ru.json'
 import fr from './Locales/fr.json'
 import de from './Locales/de.json'
 import zhCn from './Locales/zhCn.json'
+import ko from './Locales/ko.json'
 /* eslint-disable import/no-duplicates */
 import setDefaultOptions from 'date-fns/setDefaultOptions'
 import {
@@ -16,6 +17,7 @@ import {
   fr as dateFr,
   de as dateDe,
   zhCN as dateZhCh,
+  ko as dateKo
 } from 'date-fns/locale'
 /* eslint-enable import/no-duplicates */
 
@@ -31,6 +33,7 @@ const dateLocales: Record<string, Locale> = {
   fr: dateFr,
   de: dateDe,
   zhCn: dateZhCh,
+  kr: dateKo
 }
 const deviceLocale: string = locale?.split('_')[0] ?? 'en'
 setDefaultOptions({ locale: dateLocales[deviceLocale] })
@@ -46,6 +49,7 @@ i18n.use(initReactI18next).init({
     fr,
     de,
     zhCn,
+    ko
   },
   lng: locale.substring(0, 2),
   ns: ['common'],

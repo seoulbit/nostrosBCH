@@ -1,0 +1,562 @@
+{
+    "common": {
+      "time": {
+        "today": "Today",
+        "yesterday": "Yesterday"
+      },
+      "drawers": {
+        "walletLogout": "Logout",
+        "relaysTitle": "Relays",
+        "relaysDescription": "Relays are nodes on the network that act as intermediaries for the transmission of messages between applications.\n\n\nRelays can be used to improve network resiliency and availability by allowing messages to be delivered even when there are failures or interruptions in connectivity.\n\n\nRelays can also be used to improve privacy and network security, as they can hide the location and identity of applications that communicate with each other. This can be useful in environments where censorship or surveillance is an issue.\n\n\nIt is important to note that relays can also be used for malicious purposes, such as sniffing or censoring network traffic.\n\n\nTherefore, it is important to carefully evaluate the use of relays and consider appropriate security measures to protect privacy and network security.",
+        "keysTitle": "What are these keys?",
+        "keysDescription": "In nostr, you get two keys: your public key and your private key.",
+        "publicKeys": "Public key",
+        "publicKeysDescription": "Think of the public key as your username (like your @handle on other applications). Share it with other people so they can add you to their network.",
+        "privateKey": "Private key",
+        "privateKeyDescription": "Think of your private key as your password.",
+        "privateKeysSnackbarTitle": "Important.",
+        "privateKeysSnackbarDescription": "Keep your private key in a safe place. If you lose it, you will not be able to access it again or recover your account.",
+        "loginTitle": "Resilient login",
+        "loginDescription": "The \"resilient login\" process has three steps that help make the network stronger and more decentralized.",
+        "loginStep1Title": "1. Connect to random relays",
+        "loginStep1Description": "Randomly connect to 8 relays to search for your profile and your list of relays.",
+        "loginStep2Title": "2. Search for contacts in your relay list",
+        "loginStep2Description": "Connecting to your relays and searching for your contacts.",
+        "loginStep3Title": "3. Search the relays of your contacts",
+        "loginStep3Description": "You can add the relays used by your contacts to your list and connect to them to strengthen the network.",
+        "loginskip": "You can skip this process but you may miss out on the opportunity to connect to a diverse range of relays and expand your network's reach"
+      },
+      "walletPage": {
+        "addLnBits": "Add LnBits",
+        "adminKey": "Admin Key",
+        "invoiceReadKey": "Invoice Read Key",
+        "address": "Address",
+        "walletId": "Wallet id",
+        "connectingWallet": "Connecting to wallet",
+        "lnHub": "LNDHub address",
+        "addLnhub": "Add LNDHub",
+        "connect": "Connect",
+        "addXpub": "Add BCH XPUB", 
+        "addXpriv": "Add BCH Xpriv or seed phrase"
+      },
+      "homeNavigator": {
+        "ProfileCreate": "Create profile",
+        "Search": "",
+        "Wallet": "Wallets",
+        "ImageGallery": "",
+        "ProfileConnect": "",
+        "Group": "",
+        "ProfileLoad": "Login",
+        "Landing": "",
+        "QrReader": "",
+        "Contacts": "Contacts",
+        "Conversation": "Conversation",
+        "Repost": "Repost note",
+        "Reply": "Reply",
+        "Note": "Note",
+        "Profile": "Profile",
+        "About": "About",
+        "Faq": "FAQ",
+        "Config": "Config",
+        "Send": "Send",
+        "Relays": "Relays",
+        "ProfileConfig": "My profile",
+        "markAllRead": "Mark all as read"
+      },
+      "searchPage": {
+        "placeholder": "Look for public keys, notes, hashtags...",
+        "emptyTitle": "Tip",
+        "emptyDescription": "Start typing @ to find someone\n\nStart typing # to search topics"
+      },
+      "conversationPage": {
+        "unableDecypt": "{{username}} is talking with others about you",
+        "typeMessage": "Type message",
+        "notifications": {
+          "privateMessageSendError": "There was an error sending your message."
+        }
+      },
+      "profileLoadPage": {
+        "connectingRandomRelays": "1. Connect to random relays",
+        "connectingRandomRelaysDescription": "Randomly connect to 8 relays to search for your profile and your list of relays.",
+        "randomRelays": "Random relays",
+        "connectedRelays": "{{activeRelays}} connected",
+        "myProfile": "My profile",
+        "myRelays": "My relays",
+        "relaysTooLong": "Taking too long?",
+        "relaysReconnect": "Reconnect to other relays",
+        "skip": "Skip",
+        "continue": "Continue",
+        "searchContacts": "2. Search contacts in your relays",
+        "searchContactsDescription": "Connecting to your relays and searching for your contacts.",
+        "contactsCount": "Contacts found",
+        "searchContactsRelays": "3. Search your contacts relays",
+        "searchContactsRelaysDescription": "You can add the relays used by your contacts to your list and connect to them to strengthen the network.",
+        "contatcsRelays": "Contatcs Relays",
+        "contatcsRelaysCount": "{{activeRelays}} lists found",
+        "connectAccess": "Connect and access",
+        "skipTitle": "Skip resilient login",
+        "skipDescription": "By skipping this login process, it may take you more time to find your contacts and view events.\n\nThis login process improves the decentralization of the network and its resilience.",
+        "continueLogin": "Continue with resilient login"
+      },
+      "qrReaderPage": {
+        "emptyTitle": "Permissions not granted",
+        "emptyDescription": "Grant camera permissions to Nostros to start scanning QR codes",
+        "QRreader": "QR reader"
+      },
+      "sendPage": {
+        "isContact": "Following",
+        "isNotContact": "Not following",
+        "contentWarning": "Sensitive content",
+        "send": "Send"
+      },
+      "uploadImage": {
+        "notifications": {
+          "imageUploaded": "Your file has been uploaded.\nConsider donating to the service:\n{{uri}}",
+          "imageUploadErro": "There was an error while trying to upload your file"
+        },
+        "uploadImageWarningTitle": "Important",
+        "uploadImageWarning": "Your image will be uploaded to a public hosting service and will be visible for anyone.",
+        "uploadImage": "Upload image now",
+        "cancel": "Cancel",
+        "poweredBy": "Powered by {{uri}}"
+      },
+      "menuItems": {
+        "wallet": "Wallets",
+        "relays": "Relays",
+        "notConnected": "Not connected",
+        "connectedRelays": "{{number}} connected",
+        "following": "{{following}} following",
+        "followers": "{{followers}} followers",
+        "configuration": "Configuration",
+        "about": "About",
+        "faq": "FAQ",
+        "contacts": "Contacts",
+        "reportBug": "Report a bug",
+        "logout": "Logout"
+      },
+      "configPage": {
+        "showPublicImages": "Show images on public feed",
+        "showSensitive": "Show sensitive notes",
+        "satoshi": "Satoshi symbol",
+        "imageHostingService": "Image hosting service",
+        "signHeight": "Sign with latest Bitcoin block",
+        "random": "Random",
+        "language": "Language",
+        "relayColoruring": "Relay colouring",
+        "app": "App",
+        "feed": "Feed",
+        "zaps": "Zaps",
+        "disabled": "Disabled",
+        "longPressZap": "Long press Zaps",
+        "longPressZapDescription": "Define a default amount to automatically generate invoices after a long press on the Zap button.",
+        "defaultZapAmount": "Default Zap amount",
+        "update": "Update",
+        "disable": "Disable"
+      },
+      "noteActions": {
+        "note": "Note",
+        "bitcoinBlock": "Bitcoin block",
+        "bitcoinBlockHeight": "Height",
+        "id": "ID",
+        "publicBookmark": "Add to public bookmarks",
+        "privateBookmark": "Add to private bookmarks",
+        "copy": "Copy",
+        "share": "Share",
+        "view": "View",
+        "bookmarked": "Bookmarked",
+        "bookmark": "Bookmark",
+        "mutedThread": "Thread muted",
+        "muteThread": "Mute thread"
+      },
+      "noteCard": {
+        "notifications": {
+          "zapServerError": "There was an error on the server while trying to request the invoice."
+        },
+        "answering": "Answer to {{pubkey}}",
+        "reposting": "Reposted {{pubkey}}",
+        "userBlocked": "User blocked",
+        "userMuted": "User muted",
+        "seeParent": "See note",
+        "contentWarning": "Sensitive content",
+        "recommendation": "Relay recommendation",
+        "addRelay": "Add relay",
+        "reposted": "Reposted"
+      },
+      "lnPayment": {
+        "monto": "Amount (sats)",
+        "comment": "Comment (optional)",
+        "generateInvoice": "Generate invoice",
+        "cancel": "Cancel",
+        "npub": "Public key",
+        "copy": "Copy",
+        "open": "Open wallet",
+        "anonTip": "Anonymous tip",
+        "zap": "Zap",
+        "pay": "Pay"
+      },
+      "notificationsFeed": {
+        "reposted": "Reposted",
+        "zap": "Zapped {{amount}}",
+        "like": "Like",
+        "dislike": "Dislike",
+        "replied": "Replied",
+        "emptyTitle": "You don't have any notifications.",
+        "emptyDescription": "Write a message to get replies and reactions.",
+        "emptyButton": "Write a message.",
+        "notificationsFeed": "Write a message."
+      },
+      "profileCreatePage": {
+        "notifications": {
+          "copied": "Private key copied.\n\nStore this key in a safe place.",
+          "wrongWords": "The words don't match"
+        },
+        "skip": "Skip",
+        "confirmTitle": "Type the words in the right order.",
+        "warningTitle": "Important",
+        "warningDescription": "Store your key in a safe place. If you lose it, you won't be able to access or recover your profile.",
+        "warningAction": "Copy private key",
+        "continue": "Continue",
+        "mnemonicTitle": "These words or your private key are the only way to recover your account.",
+        "introTitle": "Your device will generate 12 words and your private key.",
+        "wordsNoted": "I have saved my words and/or my private key.",
+        "accessButton": "Access",
+        "label": "Private key",
+        "copied": "Key copied",
+        "description": "Store your key in a safe place."
+      },
+      "loggerPage": {
+        "createButton": "Create keys",
+        "notKeys": "Don't have keys?",
+        "isPublic": "Access with public key",
+        "accessButton": "Access",
+        "privateKey": "Private key",
+        "publicKey": "Public key",
+        "loginMethod": "Login with",
+        "mnemonic": "Mnemonic",
+        "mnemonicInput": "Type your mnemonic words in the correct order to login."
+      },
+      "contactsPage": {
+        "notifications": {
+          "keyCopied": "Public key copied.",
+          "contactAdded": "Profile followed.",
+          "addContactError": "There was an error publishing your changes.",
+          "contactRemoved": "Profile unfollowed.",
+          "contactUnblocked": "Profile unblocked.",
+          "contactUnmuted": "Profile unmuted."
+        },
+        "emptyTitleFollowing": "You are not following anyone.",
+        "emptyDescriptionFollowing": "Follow other profiles to see content.",
+        "emptyButtonFollowing": "Paste public key",
+        "emptyTitleFollower": "You have no followers",
+        "emptyDescriptionFollower": "Share your public key so people can start following you.",
+        "emptyTitleBlocked": "You have no blocked profiles",
+        "emptyDescriptionBlocked": "You can always block a someone on the profile view.",
+        "emptyButtonFollower": "Copy public key",
+        "cancel": "Cancel",
+        "addContact": "Add contact",
+        "addContactDescription": "Paste here the public key or NIP-05 of the profile you want to add.",
+        "addContactTitle": "Add contact",
+        "followers": "Followers ({{count}})",
+        "following": "Following ({{count}})",
+        "stopFollowing": "Stop Following",
+        "follow": "Follow",
+        "blocked": "Blocked ({{count}})",
+        "unblock": "Unblock",
+        "muted": "Muted ({{count}})",
+        "unmute": "Unmute"
+      },
+      "aboutPage": {
+        "telegram": "Telegram",
+        "gitHub": "GitHub",
+        "nostr": "nostr",
+        "nips": "NIPs",
+        "version": "Version"
+      },
+      "reactionsFeed": {
+        "emptyTitle": "You still didn't reacted",
+        "emptyDescription": "See here the notes you reacted to."
+      },
+      "repostsFeed": {
+        "emptyTitle": "You still didn't reposted",
+        "emptyDescription": "See here the notes you reposted."
+      },
+      "tabs": {
+        "globalFeed": "Global feed",
+        "myFeed": "My feed",
+        "reactions": "Reactions",
+        "mentions": "Mentions",
+        "reposts": "Reposts",
+        "zaps": "Most zapped",
+        "notes": "Notes",
+        "replies": "Replies",
+        "bookmarks": "Bookmarks"
+      },
+      "homeFeed": {
+        "bookmarkFeed": {
+          "private": "Private",
+          "public": "Public",
+          "emptyTitlePrivate": "Private bookmarks",
+          "emptyDescriptionPrivate": "Only you will see this list",
+          "emptyTitlePublic": "Public bookmarks",
+          "emptyDescriptionPublic": "Everyone will see this list"
+        },
+        "emptyTitle": "You are not following anyone",
+        "emptyDescription": "Follow other profiles to see content.",
+        "emptyButton": "Go to contacts",
+        "newMessage": "{{newNotesCount}} new note. Pull to refresh.",
+        "newMessages": "{{newNotesCount}} new notes. Pull to refresh."
+      },
+      "relaysPage": {
+        "pushListTitle": "Push relay list to the network",
+        "pushListDescription": "Only relays on \"My relays\" list will be pushed.",
+        "connectContactRelays": "Reconnect to contacts' relays",
+        "pushList": "Push list",
+        "contactsList": "Contact's relays",
+        "freeAccess": "Free access",
+        "paid": "Paid",
+        "paidRelay": "Paid relay",
+        "resilienceTitle": "Resilience (experimental)",
+        "resilienceDescription": "The Nostr protocol provides a good number of tools to build a decentralized network, but unlike other decentralized protocols such as Bitcoin, it is not inherently bound to its use. To achieve the goal of a decentralized network, clients (e.g., Nostros) and relays (content servers) should actively cooperate. The Nostros resilience mode seeks first to raise awareness of this among users, and second to test new patterns and methods to improve the resilience of the network.\nA working implementation for this will soon be applied in Nostros.",
+        "resilienceCategories": "Resilience exposure",
+        "resilienceCategoriesDescription": "An initial approach that Nostros is testing is to randomly calculate (based on received contact events) which relays are most balanced. This tries to avoid both relays with too many events (centralization) and relays with almost no events (battery discharge).\n\nThe goal is to create a list of 5 relays that cover all contacts. However, if this is not possible, Nostros will search among other relays and warn the user about it.",
+        "centralized": "Centralized",
+        "small": "Small",
+        "contacts": "Assigned Contacts",
+        "resilienceMode": "Resilience (experimental)",
+        "relayName": "Address",
+        "globalFeed": "Global feed",
+        "active": "Active",
+        "labelAdd": "Relay address",
+        "cancel": "Cancel",
+        "add": "Add",
+        "removeRelay": "Remove",
+        "copyRelay": "Copy",
+        "recommended": "Recommended",
+        "myList": "My relays",
+        "notifications": {
+          "globalFeedActive": "Global feed enabled.",
+          "globalFeedActiveUnactive": "Global feed disabled.",
+          "add": "Relay added.",
+          "remove": "Relay removed.",
+          "active": "Relay activated.",
+          "desactive": "Relay deactivated.",
+          "badFormat": "Relay URL has a bad format.",
+          "alreadyExists": "Relay already exists.",
+          "listPushed": "Relay list pushed."
+        }
+      },
+      "relayCard": {
+        "pushDone": "Completed",
+        "pushHistoricTitle": "Push all my data",
+        "pushHistoricDescription": "Nostros stores on his own database all the data received from relays. With this option you can push to any relay all the data Nostros has associated to your profile.",
+        "pushHistoricAlertTitle": "Important",
+        "pushHistoricAlert": "Public relays have strong anti-spam policies and this action might ban your key. Make sure you are allowed to send big chunks of data to this relay.\n\nWe recomend to use this feature only for private relays like Umbrel's Nostr Relay.",
+        "pushConsent": "I'm pushing my events to a private relay",
+        "pushingEvent": "Event {{eventId}} pushed",
+        "pushRelay": "Push all my data",
+        "cancel": "Cancel",
+        "moreInfo": "More info",
+        "lessInfo": "Less info",
+        "globalFeed": "Global Feed",
+        "active": "Active",
+        "share": "Share",
+        "copy": "Copy",
+        "remove": "Delete",
+        "pubkey": "Public key",
+        "contact": "Contact",
+        "supportedNips": "Supported NIPs",
+        "software": "Software",
+        "version": "Version",
+        "description": "Description",
+        "obtainingInfo": "Obtaining relay information",
+        "paid": "Paid",
+        "notifications": {
+          "paid": "Relay marked as paid.",
+          "noPaid": "Relay marked as free.",
+          "active": "Relay activated.",
+          "desactive": "Relay deactivated.",
+          "globalFeedActive": "Global feed enabled.",
+          "globalFeedActiveUnactive": "Global feed disabled.",
+          "pubkeyCopied": "Public key copied.",
+          "contactCopied": "Contact copied.",
+          "urlCopied": "URL copied.",
+          "pushCompleted": "All your data has been pushed."
+        }
+      },
+      "profileConfigPage": {
+        "notifications": {
+          "nsecCopied": "Private key copied.",
+          "npubCopied": "Public key copied.",
+          "profilePublished": "Profile published.",
+          "lud06Published": "LUDs published.",
+          "nip05Published": "NIP-05 published.\n\n{{nip05}}",
+          "picturePublished": "Picture published.",
+          "connectionError": "Connection error."
+        },
+        "publishLud06": "Publish",
+        "lud06Label": "LNURL",
+        "lud16Label": "Lightning Address",
+        "lud06Description": "Link your identity with an LNURL or Lightning Address.",
+        "lud06Title": "Zaps",
+        "publishNip05": "Publish",
+        "nip05Link": "Learn more.",
+        "nip05Description": "Link your identity with a domain.",
+        "nip05Title": "NIP-05",
+        "directoryCancell": "Cancel",
+        "directoryContinue": "Continue",
+        "directoryDescription": "Nostr Directory is a database of nostr public keys associated with official user accounts on other platforms. Find the people you already follow on other platforms on nostr and add your public key so that your followers can find you.\n\nIf you continue you will have to perform the verification process outside the application.",
+        "directoryTitle": "Nostr Directory",
+        "publishPicture": "Publish",
+        "pictureUrl": "Picture URL",
+        "pictureDescription": "Paste here the URL for the image you would like to display on your public profile.",
+        "pictureTitle": "Link profile's picture",
+        "publish": "Publish",
+        "nsec": "Private key",
+        "npub": "Public key",
+        "copyNPub": "Copy",
+        "directory": "Directory",
+        "lud06": "Zaps",
+        "nip05": "NIP-05",
+        "name": "Name",
+        "about": "Description"
+      },
+      "textContent": {
+        "invoice": "Lightning Network invoice"
+      },
+      "profilePage": {
+        "bookmarkFeed": {
+          "emptyTitle": "No bookmarks found"
+        },
+        "notifications": {
+          "contactAdded": "Profile followed",
+          "contactRemoved": "Profile unfollowed",
+          "npubCopied": "Public key copied.",
+          "active": "Relay activated.",
+          "desactive": "Relay desactivated."
+        },
+        "invoice": "Tip",
+        "message": "Message",
+        "follow": "Follow",
+        "unfollow": "Following",
+        "copyNPub": "Copy key",
+        "isFollower": "follows you",
+        "relaysDescription": "List of relays, where at least one event from {{username}} was found. Activate the ones you want to be connected to."
+      },
+      "groupPage": {
+        "typeMessage": "Type message",
+        "replyText": "Message"
+      },
+      "groupHeaderIcon": {
+        "delete": "Leave group",
+        "share": "Share group",
+        "edit": "Edit group"
+      },
+      "groupsFeed": {
+        "updateTitle": "Update group",
+        "newGroupName": "Name",
+        "newGroupDescription": "Description",
+        "newGroupPicture": "Picture",
+        "groupUpdate": "Update group",
+        "newGroupCreate": "Create group",
+        "createTitle": "Create group",
+        "groupId": "Group id",
+        "addTitle": "Add existing group",
+        "add": "Add group",
+        "delete": "Delete group"
+      },
+      "homePage": {
+        "clipboardTitle": "Nostr key detected",
+        "goToEvent": "Open",
+        "cancel": "Cancel"
+      },
+      "language": {
+        "en": "English",
+        "es": "Español",
+        "fr": "Français",
+        "ru": "Русский",
+        "de": "Deutsch",
+        "zhCn": "简体中文"
+      },
+      "profileShare": {
+        "notifications": {
+          "npubCopied": "Public key copied.",
+          "nip05Copied": "NIP-05 copied."
+        },
+        "copyNip05": "Copy NIP-05",
+        "copyNPub": "Copy key"
+      },
+      "profileCard": {
+        "notifications": {
+          "contactAdded": "Profile followed",
+          "contactRemoved": "Profile unfollowed",
+          "userUnblocked": "Profile unblocked",
+          "userBlocked": "Profile unblocked"
+        },
+        "addRelay": "Connect relay",
+        "invoice": "Tip",
+        "message": "Message",
+        "follow": "Follow",
+        "unfollow": "Following",
+        "block": "Block",
+        "unblock": "Unblock",
+        "share": "Share",
+        "relaysTitle": "Relays",
+        "blocked": "Blocked",
+        "mute": "Mute",
+        "muted": "Muted",
+        "hideChats": "Hide chats",
+        "muteUser": "Mute {{username}} on chats",
+        "hideWarningTitle": "Important",
+        "hideWarning": "This action will hide the messages of this user on all chats and cannot be undone.",
+        "hideChatsForever": "Mute {{username}} forever",
+        "cancel": "Cancel"
+      },
+      "conversationsFeed": {
+        "openMessage": "Start conversation",
+        "openMessageLabel": "Public key",
+        "openMessageDescription": "Paste a public key to start a conversation.",
+        "openMessageTitle": "Start conversation with public key",
+        "addPubKey": "Start conversation with public key",
+        "newMessageContact": "Start conversation with contact",
+        "emptyTitle": "You don't have any message",
+        "emptyDescription": "Write direct messages to your contacts or others.",
+        "emptyButton": "Open a conversation"
+      },
+      "faq": {
+        "searchLabel": "Search in Frequently Asked Questions",
+        "note_broadcasting": {
+          "question": "Notes: broadcasting",
+          "answer": "When a user posts a note or event in Nostr, that information is sent to the relay to which that user is connected. However, thanks to the note broadcasting feature, that information can be shared with other relays in the network so that it reaches a larger number of users. \n\nThis note broadcasting functionality helps the network and the relays to be more efficient and decentralized. By sharing the information with other relays, the workload and congestion on the network's servers are reduced, which improves performance and the network's ability to handle a larger number of users. Additionally, the decentralization of information makes Nostr more resilient to failures and harder to censor, as the information is distributed across multiple nodes in the network."
+        },
+        "notes_colouring": {
+          "question": "Notes: coloring",
+          "answer": "This feature displays a color bar next to the posts or notes displayed in the app. Each color represents a relay in which that note is present. \n\nUpon opening the detail of a note, you can see the information of the different relays where the note is located. This is done to give more visibility to the relays and highlight their importance in the Nostr network. \n\nBy displaying the information of the relays where the note is located, you can see how the information is transmitted through the Nostr network. In addition, by highlighting the importance of the relays, decentralization is encouraged and users are incentivized to connect to more servers in the network, which increases the efficiency and resiliency of the network."
+        },
+        "resilient_login": {
+          "question": "Access",
+          "answer": "The 'resilient login' process consists of three steps that help make the network stronger and more decentralized. \n\n1. Connection to random relays \nYou will connect to 8 relays chosen at random from a pool of relays. Your user profile and relay list will be searched in these 8 relays. \n\n2. Search for contacts in your relay list \nDisconnect from the 8 random relays and connect to your relay list. Your contacts will be searched in this list. \n\n3. Search for your contacts' relays \nYou will see a list of the relays used by your contacts. You can add these relays to your list and connect to them, making the network more resilient."
+        },
+        "what_are_zaps": {
+          "question": "Zaps: What are they?",
+          "answer": "Zaps are a type of tipping on the Lightning Network that enable fast, low-cost transmission of value. At their core, Zaps are tips that are sent over the Lightning Network with virtually no transaction fees. Previously, Lightning invoices were often included in the notes at the beginning of the Nostr protocol. However, with the implementation of NIP-57, Zaps have become the primary means of transmitting value in Nostr. \n\nNIP-57 is a document that specifies how Zaps should be implemented and introduces two new note types, namely type 9735 (Zap) and type 9734 (Zap request). These types of notes allow Nostr clients to request invoices from LNURL servers and pay them. \n\nIn addition, the NIP-57 specification explains how Lightning wallets receiving Zap payments should create notes to send to relays."
+        },
+        "what_are_relays": {
+          "question": "Relays: What are they?",
+          "answer": "Relays serve as backend servers for Nostr, enabling clients to send messages that may or may not be stored and broadcasted to other connected clients. Given the rapid changes in the world of relays, it is likely that many changes will occur in the future.\n\nIt is important to note that Nostr is a decentralized system that relies on relays for data storage and retrieval. Therefore, if you experience sluggish performance on your Nostr client, it is likely due to the relays that you are using.\n\nAdding or removing relays to your client may be a worthwhile consideration."
+        },
+        "relays_paid_vs_free": {
+          "question": "Relays: Free and paid relays",
+          "answer": "There are public relays available, which offer a free onboarding service for the average user. However, the lack of cost to access and write to these relays attracts spammers and bot accounts. While some relay owners blacklist spam accounts, this is a reactive process that may not be enough to keep up with persistent spammers. \n\nAs Nostr scales, the volume of spam on public relays will increase. To combat this, users can migrate to their own relay or a paid relay to have more control over their feed and reduce unnecessary data downloads. Payment relays require a payment to access and maintain a high level of operation, resulting in a cleaner and more reliable feed. \n\nThere are several payment relay options available, with more being added regularly. To use a paid relay, users must contact the owner and pay to have their public key added to the whitelist. You can find paid relays on various websites, for example: https://nostr.watch/relays/find"
+        },
+        "what_are_nips": {
+          "question": "NIPs: What are they?",
+          "answer": "Nostr Implementation Possibilities (NIPs) is a process that resembles the Bitcoin Improvement Proposal (BIP) system, but it's less complex as it doesn't involve updating a network that holds billions of dollars in people's money. NIPs are designed to document the requirements, recommendations, and optional implementations for Nostr-compatible relay and client software. By referring to past NIPs, developers can ensure their tools remain compatible with the broader Nostr network. \n\nThe NIP process is a formal way for the Nostr community to propose ideas, suggest changes, and improve the protocol. Anyone can submit a NIP and receive feedback from community members, share code and examples, or provide testing methods for their idea. After a NIP transitions from the draft to the proposed phase, it can be withdrawn, rejected, or accepted. Accepted NIPs can be integrated into the code base of relays and clients that want to utilize the new features. \n\nThe Nostr protocol aims to be open, decentralized, and accessible to everyone. The NIP process supports transparency in community decision-making, encourages contributions, and facilitates building on the protocol."
+        },
+        "nostros_nip_support": {
+          "question": "NIPs implemented in Nostros",
+          "answer": "NIP-01 Basic protocol flow description, NIP-02 Contact List and Petnames, NIP-04 Encrypted Direct Message, NIP-05 Mapping Nostr keys to DNS-based internet identifiers, NIP-06 Basic key derivation from mnemonic seed phrase, NIP-08 Handling Mentions, NIP-10 Conventions for clients' use of e and p tags in text events, NIP-11 Relay Information Document, NIP-12 Generic Tag Queries, NIP-19 bech32-encoded entities, NIP-21 nostr: URL scheme, NIP-25 Reactions, NIP-28 Public Chat, NIP-36 Sensitive Content, NIP-51 Lists, NIP-57 Lightning Zaps, y NIP-65 Relay List Metadata."
+        }
+      }
+    }
+  }
+  
