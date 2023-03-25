@@ -40,7 +40,7 @@
     "homeNavigator": {
       "ProfileCreate": "Create profile",
       "Search": "",
-      "Wallet": "Wallet",
+      "Wallet": "Wallets",
       "ImageGallery": "",
       "ProfileConnect": "",
       "Group": "",
@@ -119,7 +119,7 @@
       "poweredBy": "Powered by {{uri}}"
     },
     "menuItems": {
-      "wallet": "Wallet",
+      "wallet": "Wallets",
       "relays": "Relays",
       "notConnected": "Not connected",
       "connectedRelays": "{{number}} connected",

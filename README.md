@@ -10,6 +10,8 @@
 
 # Getting Started
 
+This project is in development, stay tuned for more info
+
 https://nostros.net/
 
 What is Nostr: https://www.nostr.how
