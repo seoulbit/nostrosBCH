@@ -37,7 +37,9 @@
       "addLnhub": "添加 LNDHub",
       "connect": "连接",
       "addXpub": "Add BCH XPUB", 
-      "addXpriv": "Add BCH Xpriv or seed phrase"
+      "addXpriv": "Add BCH Xpriv or seed phrase", 
+"bchPubKey": "BCH Public Key",
+"bchPrivKey": "BCH Private Key"
     },
     "searchPage": {
       "placeholder": "查找公钥，帖文，标签...",

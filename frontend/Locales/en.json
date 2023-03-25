@@ -37,7 +37,9 @@
       "addLnhub": "Add LNDHub",
       "connect": "Connect",
       "addXpub": "Add BCH XPUB", 
-      "addXpriv": "Add BCH Xpriv or seed phrase"
+      "addXpriv": "Add BCH Xpriv or seed phrase", 
+      "bchPubKey": "BCH Public Key",
+      "bchPrivKey": "BCH Private Key"
     },
     "homeNavigator": {
       "ProfileCreate": "Create profile",

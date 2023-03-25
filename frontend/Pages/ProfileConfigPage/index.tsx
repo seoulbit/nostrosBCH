@@ -236,6 +236,43 @@ export const ProfileConfigPage: React.FC = () => {
             numberOfLines={5}
             style={styles.input}
           />
+              <TextInput
+            mode='outlined'
+            label={t('walletPage.bchPubKey') ?? ''}
+            value={nPub}
+            selectTextOnFocus={true}
+            editable={false}
+            right={
+              <TextInput.Icon
+                icon='content-copy'
+                onPress={() => {
+                  setShowNotification('xpubCopied')
+                  Clipboard.setString(nPub ?? '')
+                }}
+                forceTextInputFocus={false}
+              />
+            }
+            style={styles.input}
+          />
+          <TextInput
+            mode='outlined'
+            label={t('walletPage.bchPrivKey') ?? ''}
+            value={nSec}
+            secureTextEntry={true}
+            editable={false}
+            selectTextOnFocus={true}
+            right={
+              <TextInput.Icon
+                icon='content-copy'
+                onPress={() => {
+                  setShowNotification('nsecCopied')
+                  Clipboard.setString(nSec ?? '')
+                }}
+                forceTextInputFocus={false}
+              />
+            }
+            style={styles.input}
+          />
           <TextInput
             mode='outlined'
             label={t('profileConfigPage.npub') ?? ''}
