@@ -35,7 +35,9 @@
       "connectingWallet": "Conectando a la wallet",
       "lnHub": "Dirección LNDHub",
       "addLnhub": "Añadir LNDHub",
-      "connect": "Connectar"
+      "connect": "Connectar",
+      "addXpub": "Add BCH XPUB", 
+      "addXpriv": "Add BCH Xpriv or seed phrase"
     },
     "searchPage": {
       "placeholder": "Busca for claves públicas, notas, ...",

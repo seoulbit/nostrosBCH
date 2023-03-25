@@ -119,8 +119,15 @@ export const WalletPage: React.FC = () => {
   const login = useMemo(
     () => (
       <View style={styles.center}>
+
         <Button mode='contained' onPress={() => bottomLndHubRef.current?.open()}>
           {t('walletPage.addLnhub')}
+        </Button>
+        <Button mode='contained' onPress={() => console.log} style={styles.button}>
+          {t('walletPage.addXpub')}
+        </Button>
+        <Button mode='contained' onPress={() => console.log} style={styles.button}>
+          {t('walletPage.addXpriv')}
         </Button>
         <Button
           mode='contained'
@@ -129,6 +136,7 @@ export const WalletPage: React.FC = () => {
         >
           {t('walletPage.addLnBits')}
         </Button>
+
       </View>
     ),
     [],
@@ -347,7 +355,7 @@ const styles = StyleSheet.create({
   center: {
     justifyContent: 'center',
     height: '100%',
-    padding: 16,
+    padding: 18,
   },
   centerItem: {
     flexDirection: 'row',

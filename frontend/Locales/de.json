@@ -35,7 +35,9 @@
       "connectingWallet": "Connecting to wallet",
       "lnHub": "LNDHub address",
       "addLnhub": "Add LNDHub",
-      "connect": "Connect"
+      "connect": "Connect",
+      "addXpub": "Add BCH XPUB", 
+      "addXpriv": "Add BCH Xpriv or seed phrase"
     },
     "homeNavigator": {
       "ProfileCreate": "Profil anlegen",
